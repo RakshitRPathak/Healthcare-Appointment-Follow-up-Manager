@@ -99,3 +99,7 @@ The schema is in `server/sql/001_init.sql`.
 - Login throttling is in memory, so it needs Redis if you run more than one API instance.
 - This is not HIPAA-compliant as it stands. Real patient data would need encryption at rest, audit logging and a
   retention policy.
+
+## License
+
+MIT. See [LICENSE](LICENSE).
